@@ -1,70 +1,33 @@
 ---
-title: 'Markdown Style Guide'
-description: 'Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.'
-pubDate: 'Jun 19 2024'
+title: 'Cinematic Markdown: دليل التنسيق البصري لكتابة المقالات السينمائية'
+description: 'تعلم كيفية استخدام صيغة الـ Markdown لتنسيق تحليلاتك، مراجعات الـ Cinema، وتقارير الـ Cinematography داخل مدونة Astro الشخصية.'
+pubDate: 'May 27 2026'
 heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
-Here is a sample of some basic Markdown syntax that can be used when writing Markdown content in Astro.
+هذا الدليل المصغر يعلمك كيف تستخدم لغة الـ **Markdown** البسيطة لتنسيق نصوصك وتحليلاتك السينمائية لتظهر بشكل مريح للعين ومتوافق كلياً مع معايير الـ **Global SEO**.
 
-## Headings
+## العناوين الفرعية (Headings)
 
-The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
+في عالم الـ **Content Creation**، نستخدم الهاشتاق `#` لتوليد عناوين فرعية تُسهل على القارئ ومحركات البحث فهم هيكل المقال. يمكنك استخدام المستويات التالية لتوزيع الـ **Cinematic Analysis**:
 
-# H1
+# العنوان الرئيسي للمقال (H1) - يُكتب تلقائياً من الـ Title
 
-## H2
+## أقسام المقال الكبرى (H2) - نضع قبلها رمزي هاشتاق `##`
 
-### H3
+### العناوين الفرعية الداخلية (H3) - نضع قبلها ثلاثة رموز `###`
 
-#### H4
+#### تفاصيل فرعية دقيقة (H4) - نضع قبلها أربعة رموز `####`
 
-##### H5
+## الفقرات النصية (Paragraphs)
 
-###### H6
+لكتابة فقرة عادية حول فلسفة الـ **Storytelling** أو مراجعة لفيلم وثائقي (**Documentary Breakdown**)، لا تحتاج لإضافة أي رموز؛ فقط ابدأ الكتابة مباشرة. وعندما تريد الانتقال إلى فقرة جديدة، اترك سطراً فارغاً واحداً ليتنفس النص بصرياً.
 
-## Paragraph
+## التنسيق المتقدم للنصوص (Text Formatting)
 
-Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.
-
-Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
-
-## Images
-
-### Syntax
-
-```markdown
-![Alt text](./full/or/relative/path/of/image)
-```
-
-### Output
-
-![blog placeholder](../../assets/blog-placeholder-about.jpg)
-
-## Blockquotes
-
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
-
-### Blockquote without attribution
-
-#### Syntax
-
-```markdown
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
-> **Note** that you can use _Markdown syntax_ within a blockquote.
-```
-
-#### Output
-
-> Tiam, ad mint andaepu dandae nostion secatur sequo quae.  
-> **Note** that you can use _Markdown syntax_ within a blockquote.
-
-### Blockquote with attribution
-
-#### Syntax
-
-```markdown
-> Don't communicate by sharing memory, share memory by communicating.<br>
+* لجعل الكلمة **عريضة وبارزة (Bold)** لتجذب انتباه القارئ لمصطلح مثل الـ **Director**، ضعها بين نجمتين هكذا: `**Director**`.
+* لجعل الكلمة *مائلة (Italic)* عند الإشارة لاسم فيلم مثل *Interstellar*، ضعها بين نجمة واحدة هكذا: `*Interstellar*`.
+* لإنشاء قائمة نقطية غير مرتبة لمخرجينك المفضلين (مثل Christopher Nolan أو Quentin Tarantino)، ابدأ السطر بعلامة النجمة `*` متبوعة بمسافة.
 > — <cite>Rob Pike[^1]</cite>
 ```
 
